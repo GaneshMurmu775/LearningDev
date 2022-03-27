@@ -1,9 +1,6 @@
-let num = 10;
-let char = 'a';
-let string = "Ganesh Murmu";
-let bool = true;
+function sayHello()
+{
+    console.log("Hello");
+}
 
-console.log(num);
-console.log(char);
-console.log(string);
-console.log(bool);
+sayHello();
