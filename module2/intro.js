@@ -1,5 +1,11 @@
-let name = "Ganesh Murmu";
+let firstName = "Ganesh ";
+let lastName = "Murmu";
 
-// toUpperCase and toLowerCase methode
-console.log(name.toUpperCase());
-console.log(name.toLowerCase());
+//concat methode
+console.log(firstName.concat(lastName));
+
+// another way of concatenation
+let fn = "Ben";
+let ln = "Tenision";
+let fullName = fn + ln;
+console.log(fullName);
