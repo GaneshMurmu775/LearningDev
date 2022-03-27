@@ -2,6 +2,6 @@
 (
     function()
     {
-        console.log("Good Night world");
+        console.log("Hello world");
     }
 ) ();
