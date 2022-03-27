@@ -1,10 +1,5 @@
-let string = "We champions the champions";
+let name = "Ganesh Murmu";
 
-//replace methode
-console.log(string.replace("champions", "Aimers"));
-console.log(string);
-
-// Output
-// We Aimers the champions
-// We chammpions the champions
-
+// toUpperCase and toLowerCase methode
+console.log(name.toUpperCase());
+console.log(name.toLowerCase());
