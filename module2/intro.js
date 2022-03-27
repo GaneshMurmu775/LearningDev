@@ -1,6 +1,6 @@
-function sayHello()
+function add(num1, num2)
 {
-    console.log("Hello");
+    return num1 + num2;
 }
 
-sayHello();
+console.log(add(5, 4));
