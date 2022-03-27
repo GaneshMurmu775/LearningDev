@@ -1,6 +1,10 @@
-let string = "We are the champions";
+let string = "We champions the champions";
 
-//slice methode
+//replace methode
+console.log(string.replace("champions", "Aimers"));
+console.log(string);
 
-console.log(string.slice(3, 5)); // 3 is starting index 
-// 5 is last index and is exclusive
+// Output
+// We Aimers the champions
+// We chammpions the champions
+
