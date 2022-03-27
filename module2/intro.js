@@ -1,3 +1,9 @@
-/* What is node?
-javascript can be run only on browser
-node is run-time environment that allows us to run javascript without browser */
+let num = 10;
+let char = 'a';
+let string = "Ganesh Murmu";
+let bool = true;
+
+console.log(num);
+console.log(char);
+console.log(string);
+console.log(bool);
