@@ -1,13 +1,20 @@
-let object = {
-    Name: 'Ganesh',
-    "Name": 'Ganesh',
-    'Age': 21,
-    Gender: "Male",
-    // Phone Number: 7250495356 [ Space in key name is not allowed ]
-    // PhoneNumber: 7250495356 [Allowed]
+let Ganesh = {
+    Name: "Ganeh Murmu",
+    Age: 21,
+    "Roll Number": 2009015,
+    "Registration Number": 20030440013,
+    Address: {
+        State: "Jharkhand",
+        City: "Jamshedpur",
+        Village: "Matigora (Sitadanga)",
+        District: "East Singhbhum",
+        "Pin Code": 832111
+    },
+    Subjects: ["DBMS", "OS", "CS", "FLAT", "DM" ],
+    Greet: function() {
+        console.log("Hello Everyone");
+    }
 }
 
-// Keys are by default string
-// There is no difference between '' and ""
+console.log(Ganesh);
 
-console.log(object);
