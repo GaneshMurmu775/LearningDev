@@ -5,7 +5,7 @@ let Ganesh = {
 console.log("Object before insertion");
 console.log(Ganesh);
 
-Ganesh.Age = 21;
+Ganesh.Roll = 21;
 
 console.log("Object after insertion");
 console.log(Ganesh);
