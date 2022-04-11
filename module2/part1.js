@@ -1,12 +1,13 @@
 let Ganesh = {
     Name: "Ganeh Murmu",
+    Roll: 21
 }
 
-console.log("Object before insertion");
+console.log("Object before deletion");
 console.log(Ganesh);
 
-Ganesh.Roll = 21;
+delete Ganesh.Roll;
 
-console.log("Object after insertion");
+console.log("Object after deletion");
 console.log(Ganesh);
 
