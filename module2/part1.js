@@ -16,5 +16,6 @@ let Ganesh = {
     }
 }
 
-console.log(Ganesh);
-
+console.log(Ganesh.Name);
+console.log(Ganesh.Address.State);
+console.log(Ganesh.Subjects[2]);
