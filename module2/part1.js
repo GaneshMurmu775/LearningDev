@@ -1,13 +1,19 @@
 let Ganesh = {
     Name: "Ganeh Murmu",
-    Roll: 21
+    Address: {
+        State: "Jharkhand",
+        City: "Jamshedpur",
+        Village: "Matigora (Sitadanga)",
+        District: "East Singhbhum",
+        "Pin Code": 832111
+    },
 }
 
-console.log("Object before deletion");
+console.log("Object before modification");
 console.log(Ganesh);
 
-delete Ganesh.Roll;
+Ganesh.Address.City = "Ranchi";
 
-console.log("Object after deletion");
+console.log("Object after modification");
 console.log(Ganesh);
 
