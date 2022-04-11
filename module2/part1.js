@@ -16,6 +16,6 @@ let Ganesh = {
     }
 }
 
-console.log(Ganesh.Name);
-console.log(Ganesh.Address.State);
-console.log(Ganesh.Subjects[2]);
+console.log(Ganesh.Greet);
+console.log(Ganesh.Greet()); // Why gave output as undefined
+Ganesh.Greet();
