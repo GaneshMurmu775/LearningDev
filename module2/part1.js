@@ -9,11 +9,5 @@ let Ganesh = {
     },
 }
 
-console.log("Object before modification");
-console.log(Ganesh);
-
-Ganesh.Address.City = "Ranchi";
-
-console.log("Object after modification");
-console.log(Ganesh);
+console.log(Ganesh["Name"]); //Bracket Notation
 
