@@ -1,0 +1,1 @@
+console.log("I am a string from another file named test.js");
