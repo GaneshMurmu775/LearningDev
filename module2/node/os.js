@@ -1,5 +1,6 @@
-//OS Module
+let cp = require('child_process');
 
-let os = require('os');
+cp.execSync("code");
+// cp.execSync("calc")  -> to open calculator
 
-console.log(os.hostname());
+ 
