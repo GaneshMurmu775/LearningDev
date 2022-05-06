@@ -1,2 +1,0 @@
-I am created using js
-I am a text appended in file.txt
