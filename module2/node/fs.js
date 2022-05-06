@@ -3,8 +3,14 @@ let path = require("path");
 
 let newFilePath = path.join(__dirname, "file.txt");
 
-// writeSync function -> creates and write on a file
-// takes two arguments 
-// 1) path as a string
-// 2) content as a string
 fs.writeFileSync(newFilePath, "I am created using js");
+
+
+/* 
+readFileSync function -> reads file,
+takes two or one arguments
+1) path of the file
+2) encoding 'utf-8' (optional)   
+*/
+let content = fs.readFileSync(newFilePath, 'utf-8');
+console.log(content);
