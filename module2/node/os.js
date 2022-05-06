@@ -7,7 +7,9 @@ let cp = require('child_process');
 // further converted to string 
 // below is the proof
 
-let x = cp.execSync("node test.js");
+let x = cp.execSync("node test.js"); 
+// Here argument of execSync function -> "node test.js" is nothing but code to 
+// execute js file, syntax -> node filename.js
 
 console.log(x); //This gives binary output
 console.log("" + x); //Here binary result is converted to string
