@@ -1,6 +1,7 @@
-let fs = require("fs");
-let path = require("path");
+let fs = require('fs');
 
-let newFilePath = path.join(__dirname, "file.txt");
+// How to create a directory in root folder
+// using function mkdirSync()
+// takes folder name in the form of string
 
-fs.unlinkSync(newFilePath);
+fs.mkdirSync('Folder');
